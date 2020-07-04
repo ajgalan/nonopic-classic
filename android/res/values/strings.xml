@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NonoPic Classic</string>
+    <string name="title_activity_acerca_de">Acerca de</string>
+    <string name="reanudar">Reanudar partida</string>
+    <string name="reanudar_detalle">Se ha encontrado una partida anterior sin completar. ¿Deseas reanudarla?</string>
+    <string name="acerca_de">
+    <big><b>NonoPic</b></big>
+    \n\n
+    Desarrollado por <b>Adrián Jiménez Galán</b> como proyecto del CFGS Desarrollo de Aplicaciones Multiplataforma en IES Comercio.
+    \n\n
+    La creación de este software ha sido posible gracias al framework <b>libGDX</b> (libgdx.badlogicgames.com), utilizado bajo la licencia <b>Apache License Version 2.0</b>
+    para el funcionamiento del juego.
+    \n\n
+    Los siguientes archivos de audio han sido utilizados en este software:
+    \n\n
+    <i>Yamaha CS-30L - Velocity Click - A#4 (Velocity Click-70-85.aif)</i> de modularsamples bajo la licencia <b>Creative Commons 0</b>.
+    \nfreesound.org/people/modularsamples/sounds/315423/
+    \n\n
+    <i>Click</i> de lebcraftlp bajo la licencia <b>Creative Commons Attribution 3.0 Unported</b>.
+    \nfreesound.org/people/lebcraftlp/sounds/192277/
+    \n\n
+    <i>Charm</i> de Scrampunk bajo la licencia <b>Creative Commons Attribution 3.0 Unported</b>.
+    \nfreesound.org/people/Scrampunk/sounds/344696/
+    \n\n
+    Música creada por <b>Blue Dot Sessions</b> (www.sessions.blue), utilizada bajo la licencia <b>Creative Commons Attribution-NonCommercial 4.0 International</b>.
+    \n\nCanciones incluidas:\n
+    \n\t- Tuck and Point
+    \n\t- Town Market
+    \n\t- Liptis
+    \n\t- Tiny Putty
+    \n\t- Rose Ornament
+    \n\t- Polycoat
+    \n\n
+    </string>
+    <string name="title_activity_instrucciones">Instrucciones</string>
+    <string name="tutorial1">NonoPic es un juego de rompecabezas basado en nonogramas.\n\nEl objetivo es revelar un dibujo siguiendo las pautas de los números situados al lado de las columnas y filas de la cuadrícula.</string>
+    <string name="tutorial2">Cada número indica la cantidad de casillas marcadas consecutivas que existen en cada fila o columna.\n\nPor ejemplo, un 5 encima de una columna significa que en algún lugar de esa columna existe un grupo de cinco casillas marcadas sin espacios entre ellas.</string>
+    <string name="tutorial3">Si hay más de un número para una fila o columna, significa que existen mútiples grupos de casillas, separadas por al menos una casilla en blanco.\n\nEn la imagen se puede ver un caso donde aparecen un 2 y un 7 para la misma fila.</string>
+    <string name="tutorial4">Deberás utilizar la lógica para averiguar qué casillas se deben marcar y cuáles no.\n\n¡No te olvides de señalar con una X las casillas que sabes que no pueden ser marcadas!</string>
+
+</resources>
