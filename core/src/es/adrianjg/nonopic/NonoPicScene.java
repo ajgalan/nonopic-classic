@@ -26,7 +26,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Timer;
-import com.badlogic.gdx.utils.viewport.FillViewport;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 import static com.badlogic.gdx.Gdx.gl;
@@ -115,7 +115,7 @@ public class NonoPicScene implements ApplicationListener {
         estado = EstadosJuego.Jugando;
         camera = new OrthographicCamera();
         camera.setToOrtho(false, 540, 960);
-        viewport = new FillViewport(540, 960, camera);
+        viewport = new FitViewport(540, 960, camera);
         sizeCasilla = 320 / nivel.getAlto();
         interfazJuego = new Stage(viewport);
         interfazPausa = new Stage(viewport);
