@@ -1,4 +1,4 @@
-![NonoPic](https://www.adrianjg.es/assets/img/nonopic.jpg)
+![NonoPic](https://www.adrianjg.es/_astro/nonopic.B_zJLajr_Z1TxyN.webp)
 # NonoPic Classic
 > Un sencillo juego de nonogramas para Android hecho con libGDX
 
