@@ -2,30 +2,29 @@
 <resources>
 
     <string name="app_name">NonoPic Classic</string>
-    <string name="title_activity_acerca_de">Acerca de</string>
-    <string name="reanudar">Reanudar partida</string>
-    <string name="reanudar_detalle">Se ha encontrado una partida anterior sin completar. ¿Deseas reanudarla?</string>
+    <string name="title_activity_acerca_de">About</string>
+    <string name="reanudar">Resume game</string>
+    <string name="reanudar_detalle">A previous game has been found which has not been completed, do you wish to resume it?</string>
     <string name="acerca_de">
     <big><b>NonoPic</b></big>
     \n\n
-    Desarrollado por <b>Adrián Jiménez Galán</b> como proyecto del CFGS Desarrollo de Aplicaciones Multiplataforma en IES Comercio.
+    Developed by <b>Adrián Jiménez Galán</b> as a project of the CFGS Multiplatform Applications Development at IES Comercio.
     \n\n
-    La creación de este software ha sido posible gracias al framework <b>libGDX</b> (libgdx.badlogicgames.com), utilizado bajo la licencia <b>Apache License Version 2.0</b>
-    para el funcionamiento del juego.
+    The creation of this software has been possible thanks to the <b>libGDX</b> framework (libgdx.badlogicgames.com), used under the <b>Apache License Version 2.0</b> to run the game.
     \n\n
-    Los siguientes archivos de audio han sido utilizados en este software:
+    The following audio files have been used in this software:
     \n\n
-    <i>Yamaha CS-30L - Velocity Click - A#4 (Velocity Click-70-85.aif)</i> de modularsamples bajo la licencia <b>Creative Commons 0</b>.
+    <i>Yamaha CS-30L - Velocity Click - A#4 (Velocity Click-70-85.aif)</i> from modularsamples under the <b>Creative Commons 0</b> license.
     \nfreesound.org/people/modularsamples/sounds/315423/
     \n\n
-    <i>Click</i> de lebcraftlp bajo la licencia <b>Creative Commons Attribution 3.0 Unported</b>.
+    <i>Click</i> from lebcraftlp under the <b>Creative Commons Attribution 3.0 Unported</b> license.
     \nfreesound.org/people/lebcraftlp/sounds/192277/
     \n\n
-    <i>Charm</i> de Scrampunk bajo la licencia <b>Creative Commons Attribution 3.0 Unported</b>.
+    <i>Charm</i> from Scrampunk under the <b>Creative Commons Attribution 3.0 Unported</b> license.
     \nfreesound.org/people/Scrampunk/sounds/344696/
     \n\n
-    Música creada por <b>Blue Dot Sessions</b> (www.sessions.blue), utilizada bajo la licencia <b>Creative Commons Attribution-NonCommercial 4.0 International</b>.
-    \n\nCanciones incluidas:\n
+    Music created by <b>Blue Dot Sessions</b> (www.sessions.blue), used under the <b>Creative Commons Attribution-NonCommercial 4.0 International</b> license.
+    \n\nIncluded songs:\n
     \n\t- Tuck and Point
     \n\t- Town Market
     \n\t- Liptis
@@ -34,10 +33,12 @@
     \n\t- Polycoat
     \n\n
     </string>
-    <string name="title_activity_instrucciones">Instrucciones</string>
-    <string name="tutorial1">NonoPic es un juego de rompecabezas basado en nonogramas.\n\nEl objetivo es revelar un dibujo siguiendo las pautas de los números situados al lado de las columnas y filas de la cuadrícula.</string>
-    <string name="tutorial2">Cada número indica la cantidad de casillas marcadas consecutivas que existen en cada fila o columna.\n\nPor ejemplo, un 5 encima de una columna significa que en algún lugar de esa columna existe un grupo de cinco casillas marcadas sin espacios entre ellas.</string>
-    <string name="tutorial3">Si hay más de un número para una fila o columna, significa que existen mútiples grupos de casillas, separadas por al menos una casilla en blanco.\n\nEn la imagen se puede ver un caso donde aparecen un 2 y un 7 para la misma fila.</string>
-    <string name="tutorial4">Deberás utilizar la lógica para averiguar qué casillas se deben marcar y cuáles no.\n\n¡No te olvides de señalar con una X las casillas que sabes que no pueden ser marcadas!</string>
+    <string name="title_activity_instrucciones">How to play</string>
+    <string name="tutorial1">NonoPic is a puzzle game based on nonograms.\n\nThe objective is to reveal a picture by following the patterns of the numbers next to the columns and rows of the grid.</string>
+    <string name="tutorial2">Each number indicates the number of consecutive ticked boxes in each row or column.\n\nFor example, a 5 above a column means that somewhere in that column there is a group of five ticked boxes with no spaces between them.</string>
+    <string name="tutorial3">If there is more than one number for a row or column, it means that there are multiple groups of cells, separated by at least one blank cell.\n\nIn the image you can see a case where a 2 and a 7 appear for the same row.</string>
+    <string name="tutorial4">You will have to use logic to work out which boxes to tick and which not to tick.\n\nDo not forget to mark with an X the boxes that you know cannot be ticked!</string>
+    <string name="jugar">Play</string>
+    <string name="tiempo">Time</string>
 
 </resources>

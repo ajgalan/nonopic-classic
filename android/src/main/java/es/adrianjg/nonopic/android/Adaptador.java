@@ -60,11 +60,11 @@ public class Adaptador extends BaseAdapter {
         nombre.setText(niveles.get(position).getNombre());
         Puntuacion puntuacion = sqlHelperAndroid.leerPuntuacion(niveles.get(position).getId());
         if (puntuacion.isCompletado()) {
-            tiempo.setText(String.format("Tiempo: %02d:%02d", puntuacion.getMinutos(), puntuacion.getSegundos()));
+            tiempo.setText(String.format("%s: %02d:%02d", context.getResources().getString(R.string.tiempo), puntuacion.getMinutos(), puntuacion.getSegundos()));
             int idImagen = context.getResources().getIdentifier("n" + niveles.get(position).getId(), "drawable", context.getPackageName());
             preview.setImageResource(idImagen);
         } else {
-            tiempo.setText("Tiempo: --:--");
+            tiempo.setText(String.format("%s: --:--", context.getResources().getString(R.string.tiempo)));
             preview.setImageResource(R.drawable.unknown);
         }
 

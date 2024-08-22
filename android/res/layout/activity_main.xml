@@ -32,7 +32,7 @@
             android:onClick="jugar"
             android:scaleX="0"
             android:scaleY="0"
-            android:text="Jugar"
+            android:text="@string/jugar"
             android:theme="@style/Button" />
 
         <Button
@@ -43,7 +43,7 @@
             android:onClick="instrucciones"
             android:scaleX="0"
             android:scaleY="0"
-            android:text="Instrucciones"
+            android:text="@string/title_activity_instrucciones"
             android:theme="@style/Button" />
 
         <Button
@@ -54,7 +54,7 @@
             android:onClick="acercaDe"
             android:scaleX="0"
             android:scaleY="0"
-            android:text="Acerca de"
+            android:text="@string/title_activity_acerca_de"
             android:theme="@style/Button" />
     </LinearLayout>
 
