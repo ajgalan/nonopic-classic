@@ -139,7 +139,7 @@ public class NonoPicScene implements ApplicationListener {
         soundCruz = Gdx.audio.newSound(Gdx.files.internal(Assets.getSoundPath(Assets.Sounds.cruz)));
         win = Gdx.audio.newSound(Gdx.files.internal(Assets.getSoundPath(Assets.Sounds.win)));
         fondo = Assets.getRandomBackground();
-        Gdx.input.setCatchBackKey(true);
+        Gdx.input.setCatchKey(Input.Keys.BACK,true);
         casillas = inicializaCasillas();
         inicializarControles(interfazJuego, interfazPausa);
         preferences = Gdx.app.getPreferences("PartidaSalvada");
